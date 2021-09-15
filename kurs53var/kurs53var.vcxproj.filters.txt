@@ -18,30 +18,30 @@
     <ClCompile Include="kurs53var.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="fileReading.cpp">
+    <ClCompile Include="..\kurs53\fileReading.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="input.cpp">
+    <ClCompile Include="..\kurs53\input.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="list.cpp">
+    <ClCompile Include="..\kurs53\list.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="people.cpp">
+    <ClCompile Include="..\kurs53\people.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="fileReading.h">
+    <ClInclude Include="..\kurs53\fileReading.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="input.h">
+    <ClInclude Include="..\kurs53\input.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="list.h">
+    <ClInclude Include="..\kurs53\list.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="people.h">
+    <ClInclude Include="..\kurs53\people.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

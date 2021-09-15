@@ -18,23 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\kurs53var\fileReading.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\kurs53var\input.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\kurs53var\kurs53var.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\kurs53var\list.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\kurs53var\people.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\kurs53var\fileReading.h" />
-    <ClInclude Include="..\..\..\..\Desktop\kurs53var\input.h" />
-    <ClInclude Include="..\..\..\..\Desktop\kurs53var\list.h" />
-    <ClInclude Include="..\..\..\..\Desktop\kurs53var\people.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{dc9662eb-7473-4f39-a6b4-a125656a9baf}</ProjectGuid>
+    <ProjectGuid>{DC9662EB-7473-4F39-A6B4-A125656A9BAF}</ProjectGuid>
     <RootNamespace>kurs53var</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -151,6 +138,19 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="fileReading.cpp" />
+    <ClCompile Include="input.cpp" />
+    <ClCompile Include="kurs53var.cpp" />
+    <ClCompile Include="list.cpp" />
+    <ClCompile Include="people.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fileReading.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="people.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
